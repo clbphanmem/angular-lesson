@@ -1,0 +1,26 @@
+
+.lesson {
+    padding: 15px;
+}
+
+body .lesson {
+    background: #e5e5e5;
+}
+
+.lesson h3.title {
+    color: blue;
+    size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lesson .info {
+    color: red;
+    text-align: center;
+}
+
+/* Bt03 */
+.lesson .person span {
+    display: block;
+    
+}
