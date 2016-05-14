@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 // import { Bt02 } from './bt/bt02';
 // import { Bt03 } from './bt/bt03';
 // import { Bt04 } from './bt/bt04';
-import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06 } from './bt';
+import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07 } from './bt';
 
 @Component({
     selector: 'app',
@@ -20,6 +20,8 @@ import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06 } from './bt';
         <bt05></bt05>
         <hr/>
         <bt06></bt06>
+        <hr/>
+        <bt07></bt07>
     `,
     directives: [
         Bt01,
@@ -27,10 +29,13 @@ import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06 } from './bt';
         Bt03,
         Bt04,
         Bt05,
-        Bt06
+        Bt06,
+        Bt07
     ]
 })
 
 export class AppComponent {
-    
+    ngAfterViewInit() {
+        window.scrollTo(0,document.body.scrollHeight);
+    }
 }

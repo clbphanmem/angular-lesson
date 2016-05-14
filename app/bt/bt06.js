@@ -25,11 +25,13 @@ var HighlightDirective = (function () {
     Object.defineProperty(HighlightDirective.prototype, "defaultColor", {
         set: function (color) {
             this.color = color || this.color;
+            // Gọi đồng thời khi sử dụng trong Element
+            this.el.nativeElement.style.backgroundColor = this.color;
         },
         enumerable: true,
         configurable: true
     });
-    HighlightDirective.prototype.onMouseEnter = function () { this.highlight("yellow"); };
+    HighlightDirective.prototype.onMouseEnter = function () { this.highlight(this.color); };
     HighlightDirective.prototype.onMouseLeave = function () { this.highlight(null); };
     HighlightDirective.prototype.highlight = function (color) {
         this.el.nativeElement.style.backgroundColor = color;

@@ -11,11 +11,13 @@ export class HighlightDirective {
     private color: string = 'yellow';
     @Input('myHighlight') highLightContent: string;
     
-    @Input() set defaultColor(color: string) {       
+    @Input() set defaultColor(color: string) { 
         this.color = color || this.color;
+        // Gọi đồng thời khi sử dụng trong Element
+        this.el.nativeElement.style.backgroundColor = this.color;
     }
     constructor(private el: ElementRef) {
-        el.nativeElement.style.backgroundColor = this.color;
+        el.nativeElement.style.backgroundColor = this.color;      
         // Ví dụ trước khi dùng ngOnInit
         // setTimeout(() => {
         //     if (this.highLightContent) {
@@ -25,7 +27,7 @@ export class HighlightDirective {
         // }, 1000);
     }
 
-    onMouseEnter() { this.highlight("yellow"); }
+    onMouseEnter() { this.highlight(this.color); }
     onMouseLeave() { this.highlight(null); }
     private highlight(color: string) {
         this.el.nativeElement.style.backgroundColor = color;

@@ -17,17 +17,21 @@ var bt_1 = require('./bt');
 var AppComponent = (function () {
     function AppComponent() {
     }
+    AppComponent.prototype.ngAfterViewInit = function () {
+        window.scrollTo(0, document.body.scrollHeight);
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app',
-            template: "\n        <h1>C\u00E1c b\u00E0i h\u1ECDc Angular 2</h1>\n        <bt01></bt01>\n        <hr/>\n        <bt02></bt02>\n        <hr/>\n        <bt03></bt03>\n        <hr/>\n        <bt04></bt04>\n        <hr/>\n        <bt05></bt05>\n        <hr/>\n        <bt06></bt06>\n    ",
+            template: "\n        <h1>C\u00E1c b\u00E0i h\u1ECDc Angular 2</h1>\n        <bt01></bt01>\n        <hr/>\n        <bt02></bt02>\n        <hr/>\n        <bt03></bt03>\n        <hr/>\n        <bt04></bt04>\n        <hr/>\n        <bt05></bt05>\n        <hr/>\n        <bt06></bt06>\n        <hr/>\n        <bt07></bt07>\n    ",
             directives: [
                 bt_1.Bt01,
                 bt_1.Bt02,
                 bt_1.Bt03,
                 bt_1.Bt04,
                 bt_1.Bt05,
-                bt_1.Bt06
+                bt_1.Bt06,
+                bt_1.Bt07
             ]
         }), 
         __metadata('design:paramtypes', [])
