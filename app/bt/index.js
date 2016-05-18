@@ -15,4 +15,5 @@ __export(require('./bt04'));
 __export(require('./bt05'));
 __export(require('./bt06'));
 __export(require('./bt07'));
+__export(require('./bt08'));
 //# sourceMappingURL=index.js.map

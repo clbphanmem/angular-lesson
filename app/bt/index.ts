@@ -11,3 +11,4 @@ export * from './bt04';
 export * from './bt05';
 export * from './bt06';
 export * from './bt07';
+export * from './bt08';
