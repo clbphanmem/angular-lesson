@@ -9,13 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+require('./rxjs-operators');
 var Bt10 = (function () {
     function Bt10() {
     }
+    Bt10.prototype.getJson = function () {
+    };
     Bt10 = __decorate([
         core_1.Component({
             selector: 'bt10',
-            template: "\n        <div class=\"lesson\">\n            <h3 class=\"title\">B\u00E0i 10: T\u00ECm hi\u1EC3u Http Client</h3>\n            <p class=\"info\">C\u00E1ch d\u00F9ng Http Client trong Angular 2</p>               \n                                 \n        </div>\n    "
+            template: "\n        <div class=\"lesson\">\n            <h3 class=\"title\">B\u00E0i 10: T\u00ECm hi\u1EC3u Http Client</h3>\n            <p class=\"info\">C\u00E1ch d\u00F9ng Http Client trong Angular 2</p>\n            <div>\n                <p></p>\n                <button>GET Json</button>\n            </div>                                   \n        </div>\n    "
         }), 
         __metadata('design:paramtypes', [])
     ], Bt10);
