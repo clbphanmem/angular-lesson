@@ -9,18 +9,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-require('./rxjs-operators');
+var http_1 = require('@angular/http');
 var Bt10 = (function () {
-    function Bt10() {
+    function Bt10(_http) {
+        this._http = _http;
+        this.url = 'http://localhost/aj2/angular-lesson/api/angular?name=Andy';
+        _http.get(this.url)
+            .map(function (res) { return res.json(); })
+            .subscribe(function (data) {
+            console.log(data);
+        });
     }
-    Bt10.prototype.getJson = function () {
-    };
     Bt10 = __decorate([
         core_1.Component({
             selector: 'bt10',
             template: "\n        <div class=\"lesson\">\n            <h3 class=\"title\">B\u00E0i 10: T\u00ECm hi\u1EC3u Http Client</h3>\n            <p class=\"info\">C\u00E1ch d\u00F9ng Http Client trong Angular 2</p>\n            <div>\n                <p></p>\n                <button>GET Json</button>\n            </div>                                   \n        </div>\n    "
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [http_1.Http])
     ], Bt10);
     return Bt10;
 }());

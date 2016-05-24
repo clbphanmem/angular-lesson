@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { HTTP_PROVIDERS } from '@angular/http';
+
 // import { Bt01 } from './bt/bt01';
 // import { Bt02 } from './bt/bt02';
 // import { Bt03 } from './bt/bt03';
@@ -40,6 +42,9 @@ import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07, Bt08, Bt09, Bt10 } from './bt
         Bt08,
         Bt09,
         Bt10
+    ],
+    providers: [
+        HTTP_PROVIDERS
     ]
 })
 

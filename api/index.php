@@ -67,9 +67,24 @@ Route::get('home/{$id}', 'HomeController@show');
 Route::get('home/category/get', 'HomeController@getCategories');
 Route::get('home/category/{$id}', 'HomeController@category');
 
+Route::get('angular', function() {
+	return App::toJson($_GET);
+});
 
 Route::post('angular', function() {
-	var_dump($_SERVER);
+	return App::toJson($_POST);
+});
+
+Route::put('angular', function() {
+	return App::toJson($_POST);
+});
+
+Route::patch('angular', function() {
+	return App::toJson($_POST);
+});
+
+Route::delete('angular', function() {
+	return 1;
 });
 
 Route::get('/jsonp', function() {

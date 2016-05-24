@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import './rxjs-operators';
+import { Http, Response } from '@angular/http';
 
 @Component({
     selector: 'bt10',
@@ -12,13 +12,18 @@ import './rxjs-operators';
                 <button>GET Json</button>
             </div>                                   
         </div>
-    `
+    `    
 })
 
 
 
 export class Bt10 {
-    getJson() {
-        
+    private url: string = 'http://localhost/aj2/angular-lesson/api/angular?name=Andy';
+    constructor(private _http: Http) {
+        _http.get(this.url)
+        .map((res: Response) => res.json())
+        .subscribe((data) => {
+            console.log(data);
+        });
     }
 }

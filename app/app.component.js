@@ -9,6 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
+var http_1 = require('@angular/http');
 // import { Bt01 } from './bt/bt01';
 // import { Bt02 } from './bt/bt02';
 // import { Bt03 } from './bt/bt03';
@@ -35,6 +36,9 @@ var AppComponent = (function () {
                 bt_1.Bt08,
                 bt_1.Bt09,
                 bt_1.Bt10
+            ],
+            providers: [
+                http_1.HTTP_PROVIDERS
             ]
         }), 
         __metadata('design:paramtypes', [])
