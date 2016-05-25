@@ -67,24 +67,55 @@ Route::get('home/{$id}', 'HomeController@show');
 Route::get('home/category/get', 'HomeController@getCategories');
 Route::get('home/category/{$id}', 'HomeController@category');
 
+App::filter(['angular.*'], function() {
+	 header('Access-Control-Allow-Origin: *');
+        header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD');
+        header('Access-Control-Allow-Headers: Content-Type, Accept, Authorization, X-Requested-With');
+	 return true;
+});
 Route::get('angular', function() {
-	return App::toJson($_GET);
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 Route::post('angular', function() {
-	return App::toJson($_POST);
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 Route::put('angular', function() {
-	return App::toJson($_POST);
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 Route::patch('angular', function() {
-	return App::toJson($_POST);
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 Route::delete('angular', function() {
-	return 1;
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 Route::get('/jsonp', function() {
