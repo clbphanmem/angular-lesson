@@ -12,3 +12,4 @@ A-Z with Angular 2
 * Bài 8: Tìm hiểu Component nâng cao phần 2
 * Bài 9: Tìm hiểu Pipe
 * Bài 10: Tìm hiểu Http Client
+* Bài 11: Tìm hiểu Http Client - JSONP

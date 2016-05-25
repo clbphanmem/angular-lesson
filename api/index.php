@@ -120,10 +120,12 @@ Route::delete('angular', function() {
 
 Route::get('/jsonp', function() {
 	header('Content-Type: text/javascript');
-	if ($callback = Input::get('callback')) {
-		$data['posts'] = Post::getPosts(10);
-		echo App::toJson($data);
-	}
+	return App::toJson([
+		'name' => 'Andy Vũ',
+		'job' => 'Lao công',
+		'company' => 'QHOnline',
+		'method' => $_SERVER['REQUEST_METHOD']
+	]);
 });
 
 App::end();
