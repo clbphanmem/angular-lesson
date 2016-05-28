@@ -2,7 +2,7 @@
 
 class Category extends ActiveRecord\Model {
 	static $has_many = [
-		['posts']
+		['posts', 'questions']
 	];
 
 	public static function getCategory($category = '') {
