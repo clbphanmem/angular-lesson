@@ -24,7 +24,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'app',
-            template: "\n        <h1>C\u00E1c b\u00E0i h\u1ECDc Angular 2</h1>\n        <bt01></bt01>\n        <hr/>\n        <bt02></bt02>\n        <hr/>\n        <bt03></bt03>\n        <hr/>\n        <bt04></bt04>\n        <hr/>\n        <bt05></bt05>\n        <hr/>\n        <bt06></bt06>\n        <hr/>\n        <bt07></bt07>\n        <hr/>\n        <bt08></bt08>\n        <hr/>\n        <bt09></bt09>\n        <hr/>\n        <bt10></bt10>\n        <hr/>\n        <bt11></bt11>\n        <hr/>\n        <bt12></bt12>\n        <hr/>\n        <bt13></bt13>\n        <hr/>\n        <bt14></bt14>\n    ",
+            template: "\n        <h1>C\u00E1c b\u00E0i h\u1ECDc Angular 2</h1>\n        <bt01></bt01>\n        <hr/>\n        <bt02></bt02>\n        <hr/>\n        <bt03></bt03>\n        <hr/>\n        <bt04></bt04>\n        <hr/>\n        <bt05></bt05>\n        <hr/>\n        <bt06></bt06>\n        <hr/>\n        <bt07></bt07>\n        <hr/>\n        <bt08></bt08>\n        <hr/>\n        <bt09></bt09>\n        <hr/>\n        <bt10></bt10>\n        <hr/>\n        <bt11></bt11>\n        <hr/>\n        <bt12></bt12>\n        <hr/>\n        <bt13></bt13>\n        <hr/>\n        <bt14></bt14>\n        <hr/>\n        <bt15></bt15>\n    ",
             directives: [
                 // Bt01,
                 // Bt02,
@@ -39,7 +39,8 @@ var AppComponent = (function () {
                 // Bt11,
                 // Bt12,
                 // Bt13,
-                bt_1.Bt14
+                bt_1.Bt14,
+                bt_1.Bt15
             ],
             providers: [
                 http_1.HTTP_PROVIDERS,

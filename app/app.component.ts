@@ -5,7 +5,7 @@ import { HTTP_PROVIDERS, JSONP_PROVIDERS } from '@angular/http';
 // import { Bt02 } from './bt/bt02';
 // import { Bt03 } from './bt/bt03';
 // import { Bt04 } from './bt/bt04';
-import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07, Bt08, Bt09, Bt10, Bt11, Bt12, Bt13, Bt14 } from './bt';
+import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07, Bt08, Bt09, Bt10, Bt11, Bt12, Bt13, Bt14, Bt15 } from './bt';
 
 @Component({
     selector: 'app',
@@ -38,6 +38,8 @@ import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07, Bt08, Bt09, Bt10, Bt11, Bt12,
         <bt13></bt13>
         <hr/>
         <bt14></bt14>
+        <hr/>
+        <bt15></bt15>
     `,
     directives: [
         // Bt01,
@@ -53,7 +55,8 @@ import { Bt01, Bt02, Bt03, Bt04, Bt05, Bt06, Bt07, Bt08, Bt09, Bt10, Bt11, Bt12,
         // Bt11,
         // Bt12,
         // Bt13,
-        Bt14
+        Bt14,
+        Bt15
     ],
     providers: [
         HTTP_PROVIDERS,
