@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18538936-84ff-436e-8372-e027bd7c2438" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/controllers/AnswerController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/controllers/QuestionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/controllers/TagController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/models/Answer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/models/Question.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/models/Tag.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/bt/bt14.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/models/Category.php" afterPath="$PROJECT_DIR$/api/models/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js.map" afterPath="$PROJECT_DIR$/app/app.component.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt01.js" afterPath="$PROJECT_DIR$/app/bt/bt01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt01.js.map" afterPath="$PROJECT_DIR$/app/bt/bt01.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt02.js" afterPath="$PROJECT_DIR$/app/bt/bt02.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt02.js.map" afterPath="$PROJECT_DIR$/app/bt/bt02.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt03.js" afterPath="$PROJECT_DIR$/app/bt/bt03.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt03.js.map" afterPath="$PROJECT_DIR$/app/bt/bt03.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt04.js" afterPath="$PROJECT_DIR$/app/bt/bt04.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt04.js.map" afterPath="$PROJECT_DIR$/app/bt/bt04.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt05.js" afterPath="$PROJECT_DIR$/app/bt/bt05.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt05.js.map" afterPath="$PROJECT_DIR$/app/bt/bt05.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt06.js" afterPath="$PROJECT_DIR$/app/bt/bt06.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt06.js.map" afterPath="$PROJECT_DIR$/app/bt/bt06.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt07.js" afterPath="$PROJECT_DIR$/app/bt/bt07.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt07.js.map" afterPath="$PROJECT_DIR$/app/bt/bt07.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt08.js" afterPath="$PROJECT_DIR$/app/bt/bt08.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt08.js.map" afterPath="$PROJECT_DIR$/app/bt/bt08.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt09.js" afterPath="$PROJECT_DIR$/app/bt/bt09.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt09.js.map" afterPath="$PROJECT_DIR$/app/bt/bt09.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt10.js" afterPath="$PROJECT_DIR$/app/bt/bt10.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt10.js.map" afterPath="$PROJECT_DIR$/app/bt/bt10.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt11.js" afterPath="$PROJECT_DIR$/app/bt/bt11.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt11.js.map" afterPath="$PROJECT_DIR$/app/bt/bt11.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt12.js" afterPath="$PROJECT_DIR$/app/bt/bt12.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt12.js.map" afterPath="$PROJECT_DIR$/app/bt/bt12.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt13.js" afterPath="$PROJECT_DIR$/app/bt/bt13.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/bt13.js.map" afterPath="$PROJECT_DIR$/app/bt/bt13.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/index.js" afterPath="$PROJECT_DIR$/app/bt/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bt/index.js.map" afterPath="$PROJECT_DIR$/app/bt/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js" afterPath="$PROJECT_DIR$/app/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.js.map" afterPath="$PROJECT_DIR$/app/main.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/cores.php" afterPath="$PROJECT_DIR$/api/cores.php" />
     </list>
     <ignored path="angular-lesson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +28,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.384615">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,7 +48,7 @@
       <file leaf-file-name="QuestionController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/QuestionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding />
             </state>
@@ -97,7 +58,7 @@
       <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
+            <state vertical-scroll-proportion="0.0">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding />
             </state>
@@ -107,7 +68,7 @@
       <file leaf-file-name="AnswerController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/AnswerController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -117,7 +78,7 @@
       <file leaf-file-name="TagController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/controllers/TagController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -127,7 +88,7 @@
       <file leaf-file-name="Question.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.384615">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="1" />
               <folding />
             </state>
@@ -137,7 +98,7 @@
       <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.923077">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
@@ -147,7 +108,7 @@
       <file leaf-file-name="Tag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Tag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.8554215">
+            <state vertical-scroll-proportion="0.0">
               <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
               <folding />
             </state>
@@ -157,7 +118,7 @@
       <file leaf-file-name="Answer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models/Answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8433733">
+            <state vertical-scroll-proportion="0.0">
               <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
               <folding />
             </state>
@@ -181,6 +142,7 @@
         <option value="$PROJECT_DIR$/api/models/Category.php" />
         <option value="$PROJECT_DIR$/api/models/Tag.php" />
         <option value="$PROJECT_DIR$/api/models/Answer.php" />
+        <option value="$PROJECT_DIR$/app/bt/bt14.ts" />
       </list>
     </option>
   </component>
@@ -226,7 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,7 +291,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,7 +299,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -399,9 +361,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -438,6 +400,94 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/models/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bt/bt14.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/QuestionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/AnswerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/controllers/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -450,9 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1464068660860" expanded="true" signature="123:307" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -500,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,9 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1464068660860" expanded="true" signature="123:307" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,7 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +592,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +599,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1464068660860" expanded="true" signature="123:307" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14680484">
           <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12296564">
           <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.73779386">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.058721934">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5164076">
           <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -676,13 +699,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
           <caret line="12" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="167" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
@@ -690,7 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.923077">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
@@ -698,7 +720,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Question.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="108" selection-end-column="1" />
           <folding />
         </state>
@@ -706,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Answer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8433733">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding />
         </state>
@@ -714,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/models/Tag.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8554215">
+        <state vertical-scroll-proportion="0.0">
           <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
           <folding />
         </state>
@@ -738,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/controllers/QuestionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding />
         </state>
@@ -746,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.384615">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>

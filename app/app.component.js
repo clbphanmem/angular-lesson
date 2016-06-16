@@ -35,7 +35,7 @@ var AppComponent = (function () {
                 // Bt07,
                 // Bt08,
                 // Bt09,
-                // Bt10, 
+                bt_1.Bt10,
                 // Bt11,
                 // Bt12,
                 // Bt13,

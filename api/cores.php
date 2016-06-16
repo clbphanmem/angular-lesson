@@ -23,7 +23,7 @@ $cfg = ActiveRecord\Config::instance();
 $cfg->set_model_directory('./models');
 $cfg->set_connections(
     array(
-        'development' => 'mysql://root:giaitri@localhost/ask',
+        'development' => 'mysql://root:giaitri@127.0.0.1/ask',
     )
 );
 
